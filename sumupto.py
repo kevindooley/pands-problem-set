@@ -11,6 +11,8 @@ x = int(input("enter a positive number"))
 if x <= 0:
     print ("Please enter a positive number")
 
+#if else statement - if x > 0 use Gauss formula to caluculate the sum
+
 elif x > 0:
     total = int(x*(x+1)/2)
     print("The sum is", total)
