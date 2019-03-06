@@ -2,8 +2,7 @@
 #Write a program that takes an input string
 #Outputs every second word
 
-a = ('the', 'quick', 'brown', 'fox,' 'jumps', 'over', 'the', 'lazy', 'dog')
+a = str(input("Please type any sentence"))
 
-for i in a:
-    print(i)
+list(range(0, a, 2))
 
