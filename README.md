@@ -7,6 +7,6 @@ The problem set is due the 31st of March 19 and the pands-problem-set repository
 
 # Getting Started
 
-    1. If not already installed, install Python 3.
-    2. Recommend downloading python using Anaconda to get     useful extra software, including Visual Studio Code
-    3. Install Cmder (windows) or Terminal (Mac) to run the code from this repository.
+1. If not already installed, install Python 3.
+2. Recommend downloading python using Anaconda to get     useful extra software, including Visual Studio Code
+3. Install Cmder (windows) or Terminal (Mac) to run the code from this repository.
