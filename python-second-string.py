@@ -2,7 +2,14 @@
 #Write a program that takes an input string
 #Outputs every second word
 
-a = str(input("Please type any sentence"))
+a = input("Please type any sentence")
 
-list(range(0, a, 2))
+words = a.split()
+
+new = ' '.join(words)
+
+
+print(new[::2])
+
+
 
