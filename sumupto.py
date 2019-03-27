@@ -8,7 +8,7 @@ x = int(input("enter a positive number"))
 
 #question asks for a positive number
 #used if statement incase negative no. used
-#this tells the user to enter a number greater than 0
+#this tells the user to enter a number greater than 0 if initial input < 0
 if x < 0:
     print ("Please enter a positive number")
 
@@ -16,9 +16,13 @@ if x < 0:
 #researched mathematical formula that calculates sum of any integer
 
 elif x > 0:
-#discover gauss formula to caluclate the sum of
-    total = int(x*(x+1)/2)
-    print("The sum is", total)
+#discovered gauss formula to calculate the sum of any integer
+#this formula allows the user to find the sum of a series
+#it is a very useful formula as you do not neead to manually add up every number
+    sum = int(x*(x+1)/2)
+
+#print the 'The sum is' string and the sum of the number
+    print("The sum is", sum)
 
 
 
