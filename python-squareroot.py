@@ -5,7 +5,8 @@
 #float was used instead of int because 
 #we want a decimal number
 #by using float, a decimal point will be always be returned
-x = float(input("Enter a floating number"))
+#even if a whole number entered by the user, float will put a '.0' on it - making it a floating number
+x = float(input("Enter a floating number: "))
 
 #Used the built in math function
 #allows use to different mathematical functions#
