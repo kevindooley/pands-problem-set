@@ -21,6 +21,7 @@ The problem set is due the 31st of March 19 and the pands-problem-set repository
 #Question 1 - sumupto.py
 
 Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number.
+
 This program will ask the user to enter a positive number on the command line and subsequently print the sum of all numbers between one and that number. I used an 'if' statement in this program to tell the user to enter a positive number and try again if a number less than zero is entered. The 'elif' statement was then used to run the program if the correct conditions were met i.e. positve number entered.
 I used a mathematical formula to calculate the sum in this solution, following research I found the the Gauss formula calculates the sum of a series.
 
@@ -34,4 +35,16 @@ https://www.w3schools.com/python/python_conditions.asp
 
 #Question 2 - todaybeginswithT.py
 
-Write a program that outputs whether or not today is a day that begins with theletter T. An example of running this program on a Thursday is as follows.
+Write a program that outputs whether or not today is a day that begins with the letter T. An example of running this program on a Thursday is as follows.
+
+This program tells the user whether today is a day that begins with the letter T. If the current day is a Tuesday or a Thursday, the program will print 'Yes, Today starts with a T' otherwise will print 'No, today does not start with a T'.
+The built in datetime module was imported for this program. Ran 'if' conditionals to see if today started with a T while date.weekday() was instead of date. isoweekday(). An 'else' conditional used to print if today did not begin with a T.
+
+Lecture Material used for Solution:
+Week 4 - controlling the flow, 'conditionals if, elif and else'
+Week 2 -thinking like a programmer,'your first program'.
+
+References and additional resoures:
+https://docs.python.org/3/library/datetime.html#datetime.date.weekday
+https://docs.python.org/3/library/datetime.html#available-types
+https://www.w3schools.com/python/python_datetime.asp
