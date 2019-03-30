@@ -10,12 +10,11 @@
 
 #this range starts at 1000, stops at but does not include 10000
 #stepping/incrementing in 1 - no step mentioned, automatically 1
-for i in range( 1000, 10000):
+for i in range( 1000, 10001):
 
 #indented as part of for loop
 #as the number must be divisible by 6
-#arithmetic operator %(modulo of a number) means dividing it by that number 
-#and have a remainder of 0 ie gives a whole number
+#arithmetic operator %(modulo of a number) means dividing it by that number and have a remainder of 0 ie gives a whole number
 #comparision operator == means equal to 
 
     if i % 6 ==0 and i % 12 !=0:
