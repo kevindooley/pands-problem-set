@@ -3,14 +3,14 @@
 #Write a program that asks the user to input any positive integer
 #outputs the sum of all numbers between one and that number
 
-x = int(input("enter a positive number"))
+x = int(input("Please enter a positive number: "))
 
 
 #question asks for a positive number
 #used if statement incase negative no. used
 #this tells the user to enter a number greater than 0 if initial input < 0
 if x < 0:
-    print ("Please enter a positive number")
+    print ("Please enter a positive number: ")
 
 #if else statement used if numbered entered above 0
 #researched mathematical formula that calculates sum of any integer
