@@ -66,3 +66,21 @@ https://docs.python.org/3/tutorial/controlflow.html#the-range-function
 https://www.w3schools.com/python/python_for_loops.asp
 https://www.youtube.com/watch?v=HWcs5qdvvo0
 https://stackoverflow.com/a/30462892
+
+#Question 4 - collatz.py
+
+Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
+
+I used the defining function to complete this question. Within the 'def' function I created a while loop to keep looping until the conditional I set was no longer true. An 'if' conditional was used to determine if a number was even and if it was even it was divided by two. The 'else' conditonal was used for odd numbers, they were multiplied by three, plus one. This kept running until the calculation reached number one.
+
+Lecture Material used for Solution:
+Week 4 - Controlling the flow: 'conditionals if, elif and else'
+Week 4 - Loops: 'while and for'
+Week 6 - Reusing code: 'functions'
+
+References and additional resoures:
+https://www.youtube.com/watch?v=9Os0o3wzS_I
+https://www.w3schools.com/python/python_functions.asp
+https://stackoverflow.com/a/35417009
+https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+https://en.wikipedia.org/wiki/Collatz_conjecture
