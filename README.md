@@ -16,7 +16,7 @@ The problem set is due the 31st of March 19 and the pands-problem-set repository
 
 1. Open the command prompt and change directory to the location you saved the files.
 2. See below for title of solution 1 and open it on the command line.
-3. Complete above step for all 10 solutions.
+3. Complete step 2 above for all 10 solutions.
 
 #Question 1 - sumupto.py
 
@@ -84,3 +84,22 @@ https://www.w3schools.com/python/python_functions.asp
 https://stackoverflow.com/a/35417009
 https://docs.python.org/3/tutorial/controlflow.html#defining-functions
 https://en.wikipedia.org/wiki/Collatz_conjecture
+https://docs.python.org/3/whatsnew/3.0.html#print-is-a-function
+
+#Question 5 - primes.py
+
+Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime.
+
+The program will first ask the user to enter a positive number on the command line. Using a 'for' loop and the built in 'range' function, a range between two and the number user enters will be looped. There is are three statements with the 'if' conditional within the 'for' loop and if any of the three are met the loop will break and ask the user to try again because they didnt meet the criteria of the question.
+'If' and 'else' conditionals used to see if number prime or not within range of 'for' loop.
+
+Lecture Material used for Solution:
+Week 4 - Controlling the flow: 'conditionals if, elif and else'
+Week 4 - Loops: 'while and for'
+Week 4 - Controlling loops: 'continue and break'
+
+References and additional resoures:
+https://www.programiz.com/python-programming/break-continue
+https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
+
+#Question 6
