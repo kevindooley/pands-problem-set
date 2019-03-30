@@ -3,11 +3,6 @@
 #outputs every second line
 
 
-#Used recommended 'with' function to open text file - called text file as 'f'
-#by using 'with' and indenting my code
-#there is no need to use 'close()' to close the file
-#the file automatically closes once the loop has finished.
-
 #import sys - this nuilt in module allows you to take argurments from the command line
 import sys
 
@@ -15,6 +10,11 @@ import sys
 #otherwise else conditional will ask user to try again
 if len(sys.argv) == 2:
 
+#Used recommended 'with' function to open text file - called text file as 'f'
+#by using 'with' and indenting my code
+#there is no need to use 'close()' to close the file
+#the file automatically closes once the loop has finished.
+#by using sys.argv[1], the program will open the 2nd filename on the command line and run the below code
     with open(sys.argv[1], 'r') as f:
 
 
@@ -31,8 +31,9 @@ if len(sys.argv) == 2:
 #print that line
 #I have set the program to print the odd lines of the text.
             if x % 2 != 0:
-                print(line)
+#end="" set to nothing and this will remove default \n or end of line or space.
+                print(line, end="")
 
 else:
-    print("Please provide two filenames to run this program")
+    print("Please provide two filenames on the command line to run this program")
 
