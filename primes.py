@@ -7,7 +7,7 @@
 #used if statement incase number less that 2 is used
 #this tells the user to enter a number greater than 2
 #because anything less than 2 isnt a prime number
-i = int(input("Enter a positive integer"))
+i = int(input("Please enter a positive integer: "))
 
     
 #for statement used so there is a looping sequence until the indented statements are false

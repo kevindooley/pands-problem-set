@@ -5,7 +5,7 @@
 
 #ask the user to enter a word on the command line#
 #stored as variable 'sentence'
-sentence = input("Please type any sentence")
+sentence = input("Please type any sentence: ")
 
 #used built in join & split functions
 #created variable 'x' by spliting the initial string input from the user

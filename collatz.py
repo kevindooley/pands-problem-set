@@ -6,7 +6,7 @@
 # divide it by two if it is even
 #multiply it by three and add one if it is odd
 #end the program when the current value is one
-x = int(input("Enter a number: "))
+x = int(input("Please enter a positive number: "))
 
 
 #defining function - function called collatz
