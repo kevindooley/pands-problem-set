@@ -38,7 +38,7 @@ https://www.w3schools.com/python/python_conditions.asp
 Write a program that outputs whether or not today is a day that begins with the letter T. An example of running this program on a Thursday is as follows.
 
 This program tells the user whether today is a day that begins with the letter T. If the current day is a Tuesday or a Thursday, the program will print 'Yes, Today starts with a T' otherwise will print 'No, today does not start with a T'.
-The built in datetime module was imported for this program. Ran 'if' conditionals to see if today started with a T while date.weekday() was instead of date. isoweekday(). An 'else' conditional used to print if today did not begin with a T.
+The built in datetime module was imported for this program. Ran 'if' conditionals to see if today started with a T while date.weekday() was used instead of date.isoweekday(). An 'else' conditional used to print if today did not begin with a T.
 
 Lecture Material used for Solution:
 Week 4 - controlling the flow, 'conditionals if, elif and else'
@@ -48,3 +48,21 @@ References and additional resoures:
 https://docs.python.org/3/library/datetime.html#datetime.date.weekday
 https://docs.python.org/3/library/datetime.html#available-types
 https://www.w3schools.com/python/python_datetime.asp
+
+#Question 3 - divisors.py
+
+Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.
+
+This program will print out on the command line all the numbers in the range of 1000 to 10000 that can be divided by the number 6 evenly but not the number 12 evenly.
+To determine the range between the above numbers I used the built in range function within a for loop. The 'if' conditional was then used within the 'for' loop of the specific range. The modulus operator determined if each number within the range could be divided by 6 but not 12.
+
+Lecture Material used for Solution:
+Week 4 - controlling the flow: 'conditionals if, elif and else'
+Week 4 - Loops: 'while and for'
+
+References and additional resoures:
+https://docs.python.org/3/tutorial/controlflow.html#for-statements
+https://docs.python.org/3/tutorial/controlflow.html#the-range-function
+https://www.w3schools.com/python/python_for_loops.asp
+https://www.youtube.com/watch?v=HWcs5qdvvo0
+https://stackoverflow.com/a/30462892
