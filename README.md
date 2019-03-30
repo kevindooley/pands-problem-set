@@ -5,8 +5,33 @@ This repository (pands-problem-set) contains all my solutions and comments to th
 
 The problem set is due the 31st of March 19 and the pands-problem-set repository URL is to be submitted on Moodle.
 
-# Getting Started
+# Getting Started/Prerequisites.
 
-1. If not already installed, install Python 3.
-2. Recommend downloading python using Anaconda to get     useful extra software, including Visual Studio Code
-3. Install Cmder (windows) or Terminal (Mac) to run the code from this repository.
+1. If not already installed, download and install Python 3.
+2. Recommend downloading python via Anaconda to get useful additional software, including Visual Studio Code and Ipython.
+3. Download and install a command prompt - recommend Cmder (Windows) or Terminal (Mac).
+4. Download the files from this repository to your desktop.
+
+#How to run the files.
+
+1. Open the command prompt and change directory to the location you saved the files.
+2. See below for title of solution 1 and open it on the command line.
+3. Complete above step for all 10 solutions.
+
+#Question 1 - sumupto.py
+
+Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number.
+This program will ask the user to enter a positive number on the command line and subsequently print the sum of all numbers between one and that number. I used an 'if' statement in this program to tell the user to enter a positive number and try again if a number less than zero is entered. The 'elif' statement was then used to run the program if the correct conditions were met i.e. positve number entered.
+I used a mathematical formula to calculate the sum in this solution, following research I found the the Gauss formula calculates the sum of a series.
+
+Lecture Material Used for Solution:
+Week 4 - controlling the flow, conditionals if, elif and else
+
+References and additional resoures:
+http://mathcentral.uregina.ca/qq/database/qq.02.06/jo1.html
+https://docs.python.org/3/tutorial/controlflow.html
+https://www.w3schools.com/python/python_conditions.asp
+
+#Question 2 - todaybeginswithT.py
+
+Write a program that outputs whether or not today is a day that begins with theletter T. An example of running this program on a Thursday is as follows.
