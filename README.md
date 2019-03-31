@@ -20,7 +20,7 @@ The problem set is due the 31st of March 19 and the pands-problem-set repository
 
 # Question 1 - sumupto.py
 
-Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number.
+**Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number.**
 
 This program will ask the user to enter a positive number on the command line and subsequently print the sum of all numbers between one and that number. I used an 'if' statement in this program to tell the user to enter a positive number and try again if a number less than zero is entered. The 'elif' statement was then used to run the program if the correct conditions were met i.e. positve number entered.
 I used a mathematical formula to calculate the sum in this solution, following research I found the the Gauss formula calculates the sum of a series.
