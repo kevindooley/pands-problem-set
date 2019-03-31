@@ -12,13 +12,13 @@ The problem set is due the 31st of March 19 and the pands-problem-set repository
 3. Download and install a command prompt - recommend Cmder (Windows) or Terminal (Mac).
 4. Download the files from this repository to your desktop.
 
-#How to run the files.
+# How to run the files.
 
 1. Open the command prompt and change directory to the location you saved the files.
 2. See below for title of solution 1 and open it on the command line.
 3. Complete step 2 above for all 10 solutions.
 
-#Question 1 - sumupto.py
+# Question 1 - sumupto.py
 
 Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number.
 
@@ -33,7 +33,7 @@ http://mathcentral.uregina.ca/qq/database/qq.02.06/jo1.html
 https://docs.python.org/3/tutorial/controlflow.html
 https://www.w3schools.com/python/python_conditions.asp
 
-#Question 2 - todaybeginswithT.py
+# Question 2 - todaybeginswithT.py
 
 Write a program that outputs whether or not today is a day that begins with the letter T. An example of running this program on a Thursday is as follows.
 
@@ -49,7 +49,7 @@ https://docs.python.org/3/library/datetime.html#datetime.date.weekday
 https://docs.python.org/3/library/datetime.html#available-types
 https://www.w3schools.com/python/python_datetime.asp
 
-#Question 3 - divisors.py
+# Question 3 - divisors.py
 
 Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.
 
@@ -67,7 +67,7 @@ https://www.w3schools.com/python/python_for_loops.asp
 https://www.youtube.com/watch?v=HWcs5qdvvo0
 https://stackoverflow.com/a/30462892
 
-#Question 4 - collatz.py
+# Question 4 - collatz.py
 
 Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
 
@@ -86,7 +86,7 @@ https://docs.python.org/3/tutorial/controlflow.html#defining-functions
 https://en.wikipedia.org/wiki/Collatz_conjecture
 https://docs.python.org/3/whatsnew/3.0.html#print-is-a-function
 
-#Question 5 - primes.py
+# Question 5 - primes.py
 
 Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime.
 
@@ -102,7 +102,7 @@ References and additional resoures:
 https://www.programiz.com/python-programming/break-continue
 https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
 
-#Question 6 - secondstring.py
+# Question 6 - secondstring.py
 Write a program that takes a user input string and outputs every second word.
 
 This program will ask the user to type a sentence onto the command line. The program will then output every second word of that original sentence. To achieve this I used both the built in 'split' and 'join' functions. By using split, the original sentence will be in a list containing every second word. Join will then convert that list back into a string, separated by a blank space.
@@ -117,7 +117,7 @@ https://www.w3schools.com/python/python_strings.asp
 https://stackoverflow.com/a/54857233
 https://www.youtube.com/watch?v=fc9buLUiqLE
 
-#Question 7 - squareroot.py
+# Question 7 - squareroot.py
 
 Write a program that that takes a positive floating point number as input and outputs an approximation of its square root.
 
@@ -133,7 +133,7 @@ https://www.geeksforgeeks.org/python-math-function-sqrt/
 https://docs.python.org/3/library/math.html#module-math
 https://www.programiz.com/python-programming/methods/built-in/round
 
-#Question 8 - datetime.py
+# Question 8 - datetime.py
 
 Write a program that outputs today’s date and time in the format “Monday, January 10th 2019 at 1:15pm”.
 
@@ -147,7 +147,7 @@ References and additional resoures:
 https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
 https://www.w3schools.com/python/python_datetime.
 
-#Question 9 - second.py
+# Question 9 - second.py
 Write a program that reads in a text file and outputs every second line. The program should take the filename from an argument on the command line.
 
 This program will read a text file from an argument on the command line. The program will output every second line of the text file. 
@@ -164,7 +164,7 @@ https://stackoverflow.com/a/7439162
 https://www.poftut.com/python-how-to-print-without-newline-or-space/
 https://docs.python.org/3/library/sys.html#sys.argv
 
-#Question 10 - plot.py
+# Question 10 - plot.py
 
 Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4].
 
