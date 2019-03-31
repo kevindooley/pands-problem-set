@@ -102,4 +102,17 @@ References and additional resoures:
 https://www.programiz.com/python-programming/break-continue
 https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
 
-#Question 6
+#Question 6 - secondstring.py
+Write a program that takes a user input string and outputs every second word.
+
+This program will ask the user to type a sentence onto the command line. The program will then output every second word of that original sentence. To achieve this I used both the built in 'split' and 'join' functions. By using split, the original sentence will be in a list containing every second word. Join will then convert that list back into a string, separated by a blank space.
+
+Lecture Material used for Solution:
+Week 7 - Files: 'string operations'
+
+References and additional resoures:
+https://docs.python.org/3/library/stdtypes.html#str.split
+https://docs.python.org/3/library/stdtypes.html#str.join
+https://www.w3schools.com/python/python_strings.asp
+https://stackoverflow.com/a/54857233
+https://www.youtube.com/watch?v=fc9buLUiqLE
