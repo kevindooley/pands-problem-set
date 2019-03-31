@@ -29,9 +29,9 @@ I used a mathematical formula to calculate the sum in this solution, following r
 Week 4 - controlling the flow, conditionals if, elif and else
 
 ###### References and additional resoures:
-http://mathcentral.uregina.ca/qq/database/qq.02.06/jo1.html
-https://docs.python.org/3/tutorial/controlflow.html
-https://www.w3schools.com/python/python_conditions.asp
+- http://mathcentral.uregina.ca/qq/database/qq.02.06/jo1.html
+- https://docs.python.org/3/tutorial/controlflow.html
+- https://www.w3schools.com/python/python_conditions.asp
 
 # Question 2 - todaybeginswithT.py
 
