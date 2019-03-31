@@ -41,13 +41,13 @@ This program tells the user whether today is a day that begins with the letter T
 The built in datetime module was imported for this program. Ran 'if' conditionals to see if today started with a T while date.weekday() was used instead of date.isoweekday(). An 'else' conditional used to print if today did not begin with a T.
 
 ###### Lecture Material used for Solution:
-Week 4 - controlling the flow, 'conditionals if, elif and else'
-Week 2 -thinking like a programmer
+- Week 4 - controlling the flow, 'conditionals if, elif and else'
+- Week 2 -thinking like a programmer
 
 ###### References and additional resoures:
-https://docs.python.org/3/library/datetime.html#datetime.date.weekday
-https://docs.python.org/3/library/datetime.html#available-types
-https://www.w3schools.com/python/python_datetime.asp
+- https://docs.python.org/3/library/datetime.html#datetime.date.weekday
+- https://docs.python.org/3/library/datetime.html#available-types
+- https://www.w3schools.com/python/python_datetime.asp
 
 # Question 3 - divisors.py
 
@@ -57,15 +57,15 @@ This program will print out on the command line all the numbers in the range of 
 To determine the range between the above numbers I used the built in range function within a for loop. The 'if' conditional was then used within the 'for' loop of the specific range. The modulus operator determined if each number within the range could be divided by 6 but not 12.
 
 ###### Lecture Material used for Solution:
-Week 4 - controlling the flow: 'conditionals if, elif and else'
-Week 4 - Loops: 'while and for'
+- Week 4 - controlling the flow: 'conditionals if, elif and else'
+- Week 4 - Loops: 'while and for'
 
 ###### References and additional resoures:
-https://docs.python.org/3/tutorial/controlflow.html#for-statements
-https://docs.python.org/3/tutorial/controlflow.html#the-range-function
-https://www.w3schools.com/python/python_for_loops.asp
-https://www.youtube.com/watch?v=HWcs5qdvvo0
-https://stackoverflow.com/a/30462892
+- https://docs.python.org/3/tutorial/controlflow.html#for-statements
+- https://docs.python.org/3/tutorial/controlflow.html#the-range-function
+- https://www.w3schools.com/python/python_for_loops.asp
+- https://www.youtube.com/watch?v=HWcs5qdvvo0
+- https://stackoverflow.com/a/30462892
 
 # Question 4 - collatz.py
 
@@ -74,17 +74,17 @@ https://stackoverflow.com/a/30462892
 I used the defining function to complete this question. Within the 'def' function I created a while loop to keep looping until the conditional I set was no longer true. An 'if' conditional was used to determine if a number was even and if it was even it was divided by two. The 'else' conditonal was used for odd numbers, they were multiplied by three, plus one. This kept running until the calculation reached number one.
 
 ###### Lecture Material used for Solution:
-Week 4 - Controlling the flow: 'conditionals if, elif and else'
-Week 4 - Loops: 'while and for'
-Week 6 - Reusing code: 'functions'
+- Week 4 - Controlling the flow: 'conditionals if, elif and else'
+- Week 4 - Loops: 'while and for'
+- Week 6 - Reusing code: 'functions'
 
 ###### References and additional resoures:
-https://www.youtube.com/watch?v=9Os0o3wzS_I
-https://www.w3schools.com/python/python_functions.asp
-https://stackoverflow.com/a/35417009
-https://docs.python.org/3/tutorial/controlflow.html#defining-functions
-https://en.wikipedia.org/wiki/Collatz_conjecture
-https://docs.python.org/3/whatsnew/3.0.html#print-is-a-function
+- https://www.youtube.com/watch?v=9Os0o3wzS_I
+- https://www.w3schools.com/python/python_functions.asp
+- https://stackoverflow.com/a/35417009
+- https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+- https://en.wikipedia.org/wiki/Collatz_conjecture
+- https://docs.python.org/3/whatsnew/3.0.html#print-is-a-function
 
 # Question 5 - primes.py
 
@@ -94,13 +94,13 @@ The program will first ask the user to enter a positive number on the command li
 'If' and 'else' conditionals used to see if number prime or not within range of 'for' loop.
 
 ###### Lecture Material used for Solution:
-Week 4 - Controlling the flow: 'conditionals if, elif and else'
-Week 4 - Loops: 'while and for'
-Week 4 - Controlling loops: 'continue and break'
+- Week 4 - Controlling the flow: 'conditionals if, elif and else'
+- Week 4 - Loops: 'while and for'
+- Week 4 - Controlling loops: 'continue and break'
 
 ###### References and additional resoures:
-https://www.programiz.com/python-programming/break-continue
-https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
+- https://www.programiz.com/python-programming/break-continue
+- https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
 
 # Question 6 - secondstring.py
 **Write a program that takes a user input string and outputs every second word.**
@@ -111,11 +111,11 @@ This program will ask the user to type a sentence onto the command line. The pro
 Week 7 - Files: 'string operations'
 
 ###### References and additional resoures:
-https://docs.python.org/3/library/stdtypes.html#str.split
-https://docs.python.org/3/library/stdtypes.html#str.join
-https://www.w3schools.com/python/python_strings.asp
-https://stackoverflow.com/a/54857233
-https://www.youtube.com/watch?v=fc9buLUiqLE
+- https://docs.python.org/3/library/stdtypes.html#str.split
+- https://docs.python.org/3/library/stdtypes.html#str.join
+- https://www.w3schools.com/python/python_strings.asp
+- https://stackoverflow.com/a/54857233
+- https://www.youtube.com/watch?v=fc9buLUiqLE
 
 # Question 7 - squareroot.py
 
@@ -124,14 +124,14 @@ https://www.youtube.com/watch?v=fc9buLUiqLE
 The program will ask the user to enter a positive decimal number on the command line. It will then calculate the square root of that number to 1 decimal place. In this program I imported math and imported the squareroot module within math. An 'if' statement was used to investigate if the user had entered positive number, if they hadnt they would be prompted to try again. Another 'if' statement was used incase a whole number was entered on the command line, they are once again prompted to try again. The 'elif' conditional was used when the correct condtions were met and then the square root would be calculated. The round function ensured the answer was to one decimal place as per in the question.
 
 ###### Lecture Material used for Solution:
-Week 6 - Reusing code: 'modules'
-Week 4 - Controlling the flow: 'conditionals if, elif and else'
+- Week 6 - Reusing code: 'modules'
+- Week 4 - Controlling the flow: 'conditionals if, elif and else'
 
 ###### References and additional resoures:
-https://www.tutorialspoint.com/python3/python_modules.htm
-https://www.geeksforgeeks.org/python-math-function-sqrt/
-https://docs.python.org/3/library/math.html#module-math
-https://www.programiz.com/python-programming/methods/built-in/round
+- https://www.tutorialspoint.com/python3/python_modules.htm
+- https://www.geeksforgeeks.org/python-math-function-sqrt/
+- https://docs.python.org/3/library/math.html#module-math
+- https://www.programiz.com/python-programming/methods/built-in/round
 
 # Question 8 - datetime.py
 
@@ -140,12 +140,12 @@ https://www.programiz.com/python-programming/methods/built-in/round
 This program will tell the user the current date and time in the above format. Firstly I imported datetime and then used strftime module to pull the required information and formatting from datetime. Using strftime allows the program to output the date in the requested format.
 
 ###### Lecture Material used for Solution:
-Week 6 - Reusing code: 'modules'
-Week 2 -thinking like a programmer
+- Week 6 - Reusing code: 'modules'
+- Week 2 -thinking like a programmer
 
 ###### References and additional resoures:
-https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
-https://www.w3schools.com/python/python_datetime.
+- https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
+- https://www.w3schools.com/python/python_datetime.
 
 # Question 9 - second.py
 **Write a program that reads in a text file and outputs every second line. The program should take the filename from an argument on the command line.**
@@ -155,16 +155,16 @@ To do this I first had to import sys to allow the user to take an arugument from
 
 ###### Lecture Material used for Solution:
 
-Week 4 - Controlling the flow: 'conditionals if, elif and else'
-Week 7 - Files: 'Opening files for reading and writing'
-Week 9 - Interactive Python for data analysis: 'Command line arguments'
+- Week 4 - Controlling the flow: 'conditionals if, elif and else'
+- Week 7 - Files: 'Opening files for reading and writing'
+- Week 9 - Interactive Python for data analysis: 'Command line arguments'
 
 ###### References and additional resoures:
 
-https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
-https://stackoverflow.com/a/7439162
-https://www.poftut.com/python-how-to-print-without-newline-or-space/
-https://docs.python.org/3/library/sys.html#sys.argv
+- https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+- https://stackoverflow.com/a/7439162
+- https://www.poftut.com/python-how-to-print-without-newline-or-space/
+- https://docs.python.org/3/library/sys.html#sys.argv
 
 # Question 10 - plot.py
 
@@ -173,11 +173,11 @@ https://docs.python.org/3/library/sys.html#sys.argv
 In this program I have imported mathplotlib.pyplot which will create the plot for the above functions while numpy was also imported as it is required to be able to add the range. The plot will also have a title in the centre and an x and y axis. Each function on the plot will be differenciated by 3 separate colours.
 
 ###### Lecture Material used for Solution:
-Week 9 - Interactive Python for data analysis: 'Matplotlib and Pyplot'
-Week 9 - Interactive Python for data analysis: 'Numpy'
+- Week 9 - Interactive Python for data analysis: 'Matplotlib and Pyplot'
+- Week 9 - Interactive Python for data analysis: 'Numpy'
 
 ###### References and additional resoures:
-https://matplotlib.org/users/pyplot_tutorial.html
-https://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot
-https://www.tutorialspoint.com/numpy/numpy_matplotlib.htm
+- https://matplotlib.org/users/pyplot_tutorial.html
+- https://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot
+- https://www.tutorialspoint.com/numpy/numpy_matplotlib.htm
 
