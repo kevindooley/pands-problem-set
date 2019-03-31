@@ -90,8 +90,8 @@ I used the defining function to complete this question. Within the 'def' functio
 
 **Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime.**
 
-The program will first ask the user to enter a positive number on the command line. Using a 'for' loop and the built in 'range' function, a range between two and the number user enters will be looped. There is are three statements with the 'if' conditional within the 'for' loop and if any of the three are met the loop will break and ask the user to try again because they didnt meet the criteria of the question.
-'If' and 'else' conditionals used to see if number prime or not within range of 'for' loop.
+The program will first ask the user to enter a positive number on the command line. Using a 'for' loop and the built in 'range' function, a range between two and the number user enters will be looped. There are three statements with the 'if' conditional within the 'for' loop and if any of the three are met the loop will break and ask the user to try again because they didnt meet the criteria of the question.
+'If' and 'else' conditionals used within 'for' loop to see if the number is prime or not.
 
 ###### Lecture Material used for Solution:
 - Week 4 - Controlling the flow: 'conditionals if, elif and else'
@@ -121,7 +121,7 @@ Week 7 - Files: 'string operations'
 
 **Write a program that that takes a positive floating point number as input and outputs an approximation of its square root.**
 
-The program will ask the user to enter a positive decimal number on the command line. It will then calculate the square root of that number to 1 decimal place. In this program I imported math and imported the squareroot module within math. An 'if' statement was used to investigate if the user had entered positive number, if they hadnt they would be prompted to try again. Another 'if' statement was used incase a whole number was entered on the command line, they are once again prompted to try again. The 'elif' conditional was used when the correct condtions were met and then the square root would be calculated. The round function ensured the answer was to one decimal place as per in the question.
+The program will ask the user to enter a positive decimal number on the command line. It will then calculate the square root of that number to 1 decimal place. In this program I imported math and imported the squareroot module within math. An 'if' statement was used to investigate if the user had entered positive number, if it hadnt the user would be prompted to try again. Another 'if' statement was used incase a whole number was entered on the command line, once again the user will be prompted to try again. The 'elif' conditional was used when the correct condtions were met and then the square root would be calculated. The round function ensured the answer was to one decimal place as per in the question.
 
 ###### Lecture Material used for Solution:
 - Week 6 - Reusing code: 'modules'
