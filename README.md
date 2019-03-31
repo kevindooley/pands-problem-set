@@ -154,11 +154,13 @@ This program will read a text file from an argument on the command line. The pro
 To do this I first had to import sys to allow the user to take an arugument from the commant line. There is an 'if' conditional that will only allow the program to run if there are two filenames on the command line. This program outputs the contents of a text file so there is a text file saved in the same folder so that is possible. To open the file in read I used 'with' so there is no need to manually close the text file after it has run. Sys.argv within the 'with' function means that the text file will run and an 'if' conditional in the code ensures every second line of the text file is printed.
 
 Lecture Material used for Solution:
+
 Week 4 - Controlling the flow: 'conditionals if, elif and else'
 Week 7 - Files: 'Opening files for reading and writing'
 Week 9 - Interactive Python for data analysis: 'Command line arguments'
 
 References and additional resoures:
+
 https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 https://stackoverflow.com/a/7439162
 https://www.poftut.com/python-how-to-print-without-newline-or-space/
