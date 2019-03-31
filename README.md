@@ -162,3 +162,20 @@ References and additional resoures:
 https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 https://stackoverflow.com/a/7439162
 https://www.poftut.com/python-how-to-print-without-newline-or-space/
+https://docs.python.org/3/library/sys.html#sys.argv
+
+#Question 10 - plot.py
+
+Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4].
+
+In this program I have imported mathplotlib.pyplot which will create the plot for the above functions while numpy was also imported as it is required to be able to add the range. The plot will also have a title in the centre and an x and y axis. Each function on the plot will be differenciated by 3 separate colours.
+
+Lecture Material used for Solution:
+Week 9 - Interactive Python for data analysis: 'Matplotlib and Pyplot'
+Week 9 - Interactive Python for data analysis: 'Numpy'
+
+References and additional resoures:
+https://matplotlib.org/users/pyplot_tutorial.html
+https://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot
+https://www.tutorialspoint.com/numpy/numpy_matplotlib.htm
+
