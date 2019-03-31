@@ -35,7 +35,7 @@ https://www.w3schools.com/python/python_conditions.asp
 
 # Question 2 - todaybeginswithT.py
 
-Write a program that outputs whether or not today is a day that begins with the letter T. An example of running this program on a Thursday is as follows.
+**Write a program that outputs whether or not today is a day that begins with the letter T. An example of running this program on a Thursday is as follows.**
 
 This program tells the user whether today is a day that begins with the letter T. If the current day is a Tuesday or a Thursday, the program will print 'Yes, Today starts with a T' otherwise will print 'No, today does not start with a T'.
 The built in datetime module was imported for this program. Ran 'if' conditionals to see if today started with a T while date.weekday() was used instead of date.isoweekday(). An 'else' conditional used to print if today did not begin with a T.
@@ -51,7 +51,7 @@ https://www.w3schools.com/python/python_datetime.asp
 
 # Question 3 - divisors.py
 
-Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.
+**Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.**
 
 This program will print out on the command line all the numbers in the range of 1000 to 10000 that can be divided by the number 6 evenly but not the number 12 evenly.
 To determine the range between the above numbers I used the built in range function within a for loop. The 'if' conditional was then used within the 'for' loop of the specific range. The modulus operator determined if each number within the range could be divided by 6 but not 12.
@@ -69,7 +69,7 @@ https://stackoverflow.com/a/30462892
 
 # Question 4 - collatz.py
 
-Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
+**Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.**
 
 I used the defining function to complete this question. Within the 'def' function I created a while loop to keep looping until the conditional I set was no longer true. An 'if' conditional was used to determine if a number was even and if it was even it was divided by two. The 'else' conditonal was used for odd numbers, they were multiplied by three, plus one. This kept running until the calculation reached number one.
 
@@ -88,7 +88,7 @@ https://docs.python.org/3/whatsnew/3.0.html#print-is-a-function
 
 # Question 5 - primes.py
 
-Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime.
+**Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime.**
 
 The program will first ask the user to enter a positive number on the command line. Using a 'for' loop and the built in 'range' function, a range between two and the number user enters will be looped. There is are three statements with the 'if' conditional within the 'for' loop and if any of the three are met the loop will break and ask the user to try again because they didnt meet the criteria of the question.
 'If' and 'else' conditionals used to see if number prime or not within range of 'for' loop.
@@ -103,7 +103,7 @@ https://www.programiz.com/python-programming/break-continue
 https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
 
 # Question 6 - secondstring.py
-Write a program that takes a user input string and outputs every second word.
+**Write a program that takes a user input string and outputs every second word.**
 
 This program will ask the user to type a sentence onto the command line. The program will then output every second word of that original sentence. To achieve this I used both the built in 'split' and 'join' functions. By using split, the original sentence will be in a list containing every second word. Join will then convert that list back into a string, separated by a blank space.
 
@@ -119,7 +119,7 @@ https://www.youtube.com/watch?v=fc9buLUiqLE
 
 # Question 7 - squareroot.py
 
-Write a program that that takes a positive floating point number as input and outputs an approximation of its square root.
+**Write a program that that takes a positive floating point number as input and outputs an approximation of its square root.**
 
 The program will ask the user to enter a positive decimal number on the command line. It will then calculate the square root of that number to 1 decimal place. In this program I imported math and imported the squareroot module within math. An 'if' statement was used to investigate if the user had entered positive number, if they hadnt they would be prompted to try again. Another 'if' statement was used incase a whole number was entered on the command line, they are once again prompted to try again. The 'elif' conditional was used when the correct condtions were met and then the square root would be calculated. The round function ensured the answer was to one decimal place as per in the question.
 
@@ -135,7 +135,7 @@ https://www.programiz.com/python-programming/methods/built-in/round
 
 # Question 8 - datetime.py
 
-Write a program that outputs today’s date and time in the format “Monday, January 10th 2019 at 1:15pm”.
+**Write a program that outputs today’s date and time in the format “Monday, January 10th 2019 at 1:15pm”.**
 
 This program will tell the user the current date and time in the above format. Firstly I imported datetime and then used strftime module to pull the required information and formatting from datetime. Using strftime allows the program to output the date in the requested format.
 
@@ -148,7 +148,7 @@ https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
 https://www.w3schools.com/python/python_datetime.
 
 # Question 9 - second.py
-Write a program that reads in a text file and outputs every second line. The program should take the filename from an argument on the command line.
+**Write a program that reads in a text file and outputs every second line. The program should take the filename from an argument on the command line.**
 
 This program will read a text file from an argument on the command line. The program will output every second line of the text file. 
 To do this I first had to import sys to allow the user to take an arugument from the commant line. There is an 'if' conditional that will only allow the program to run if there are two filenames on the command line. This program outputs the contents of a text file so there is a text file saved in the same folder so that is possible. To open the file in read I used 'with' so there is no need to manually close the text file after it has run. Sys.argv within the 'with' function means that the text file will run and an 'if' conditional in the code ensures every second line of the text file is printed.
@@ -168,7 +168,7 @@ https://docs.python.org/3/library/sys.html#sys.argv
 
 # Question 10 - plot.py
 
-Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4].
+**Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4].**
 
 In this program I have imported mathplotlib.pyplot which will create the plot for the above functions while numpy was also imported as it is required to be able to add the range. The plot will also have a title in the centre and an x and y axis. Each function on the plot will be differenciated by 3 separate colours.
 
