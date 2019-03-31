@@ -42,7 +42,7 @@ The built in datetime module was imported for this program. Ran 'if' conditional
 
 Lecture Material used for Solution:
 Week 4 - controlling the flow, 'conditionals if, elif and else'
-Week 2 -thinking like a programmer,'your first program'.
+Week 2 -thinking like a programmer
 
 References and additional resoures:
 https://docs.python.org/3/library/datetime.html#datetime.date.weekday
@@ -133,4 +133,19 @@ https://www.geeksforgeeks.org/python-math-function-sqrt/
 https://docs.python.org/3/library/math.html#module-math
 https://www.programiz.com/python-programming/methods/built-in/round
 
-#
+#Question 8 - datetime.py
+
+Write a program that outputs today’s date and time in the format “Monday, January
+10th 2019 at 1:15pm”.
+
+This program will tell the user the current date and time in the above format. Firstly I imported datetime and then used strftime module to pull the required information and formatting from datetime. Using strftime allows the program to output the date in the requested format.
+
+Lecture Material used for Solution:
+Week 6 - Reusing code: 'modules'
+Week 2 -thinking like a programmer
+
+References and additional resoures:
+https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
+https://www.w3schools.com/python/python_datetime.
+
+#Question 9 - second.py
