@@ -116,3 +116,21 @@ https://docs.python.org/3/library/stdtypes.html#str.join
 https://www.w3schools.com/python/python_strings.asp
 https://stackoverflow.com/a/54857233
 https://www.youtube.com/watch?v=fc9buLUiqLE
+
+#Question 7 - squareroot.py
+
+Write a program that that takes a positive floating point number as input and outputs an approximation of its square root.
+
+The program will ask the user to enter a positive decimal number on the command line. It will then calculate the square root of that number to 1 decimal place. In this program I imported math and imported the squareroot module within math. An 'if' statement was used to investigate if the user had entered positive number, if they hadnt they would be prompted to try again. Another 'if' statement was used incase a whole number was entered on the command line, they are once again prompted to try again. The 'elif' conditional was used when the correct condtions were met and then the square root would be calculated. The round function ensured the answer was to one decimal place as per in the question.
+
+Lecture Material used for Solution:
+Week 6 - Reusing code: 'modules'
+Week 4 - Controlling the flow: 'conditionals if, elif and else'
+
+References and additional resoures:
+https://www.tutorialspoint.com/python3/python_modules.htm
+https://www.geeksforgeeks.org/python-math-function-sqrt/
+https://docs.python.org/3/library/math.html#module-math
+https://www.programiz.com/python-programming/methods/built-in/round
+
+#
