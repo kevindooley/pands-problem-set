@@ -133,7 +133,7 @@ The program will ask the user to enter a positive decimal number on the command 
 - https://docs.python.org/3/library/math.html#module-math
 - https://www.programiz.com/python-programming/methods/built-in/round
 
-# Question 8 - datetime.py
+# Question 8 - datetimesolution.py
 
 **Write a program that outputs today’s date and time in the format “Monday, January 10th 2019 at 1:15pm”.**
 
@@ -166,7 +166,7 @@ To do this I first had to import sys to allow the user to take an arugument from
 - https://www.poftut.com/python-how-to-print-without-newline-or-space/
 - https://docs.python.org/3/library/sys.html#sys.argv
 
-# Question 10 - plot.py
+# Question 10 - plotsolution.py
 
 **Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4].**
 
